@@ -1,0 +1,72 @@
+
+body{
+    background-color:burlywood;
+    font-family: 'Nunito Sans',sans-serif;
+}
+.main-container {
+
+    margin: 0 auto 0 auto;
+    width: 250px;
+    text-align: center;
+    font-size: 19px;
+    border: solid 7px;
+    padding: 7px 20px 20px 20px;
+}
+
+h1{
+    background-color: black;
+    color: burlywood;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.todo-item .mark-done-icon{
+    flex: 1;
+}
+
+.todo-item .desc{
+    flex: 24;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.todo-item .delete{
+    flex: 1;
+}
+
+.add-todo input{
+    width: 93%;
+    border-radius: 3px;
+    border: solid 2px #000000;
+    padding: 7px;
+    font-size: 15px;
+}
+
+i.fa.fa-times-circle-o {
+    color: red;
+}
+
+.hidden{
+    display: none;
+}
+
+.cross-me{
+    text-decoration: line-through;
+}
+
+.tick{
+    display: flex;
+    color: #13af09;
+    margin-top: -23px;
+}
